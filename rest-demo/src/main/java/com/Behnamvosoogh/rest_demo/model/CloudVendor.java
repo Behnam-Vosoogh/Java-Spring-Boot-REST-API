@@ -2,6 +2,7 @@ package com.Behnamvosoogh.rest_demo.model;
 
 public class CloudVendor {
 
+
 	private String vendoreId;
 	private String vendoreName;
 	private String vendoreAddress;
@@ -15,6 +16,30 @@ public class CloudVendor {
 	}
 	public CloudVendor() {
 		super();
+	}
+	public String getVendoreId() {
+		return vendoreId;
+	}
+	public void setVendoreId(String vendoreId) {
+		this.vendoreId = vendoreId;
+	}
+	public String getVendoreName() {
+		return vendoreName;
+	}
+	public void setVendoreName(String vendoreName) {
+		this.vendoreName = vendoreName;
+	}
+	public String getVendoreAddress() {
+		return vendoreAddress;
+	}
+	public void setVendoreAddress(String vendoreAddress) {
+		this.vendoreAddress = vendoreAddress;
+	}
+	public String getVendorerPoneNumber() {
+		return vendorerPoneNumber;
+	}
+	public void setVendorerPoneNumber(String vendorerPoneNumber) {
+		this.vendorerPoneNumber = vendorerPoneNumber;
 	}
 
 	
